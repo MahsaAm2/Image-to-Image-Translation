@@ -85,4 +85,31 @@ The model employs several loss functions to ensure quality image translation:
   - Batch size: `batch_size = 1`
   - Input dimensions: `load_shape = 286`, `target_shape = 256`
 
+### Results
+
+Below are the results of image transfer from Domain A to Domain B using the CycleGAN model.
+
+#### Example Images from Domain A to Domain B
+
+![image 1](https://github.com/user-attachments/assets/404f6959-8215-4316-b0da-5c1c59a362be)
+
+![image 2](https://github.com/user-attachments/assets/9c1dd6f9-daa2-47be-b0f3-c3227c0d5eb1)
+
+![image 3](https://github.com/user-attachments/assets/1e61dad3-658e-4dfc-9dc2-36f32a57cf25)
+
+
+#### Example Images from Domain B to Domain A
+
+![image 4](https://github.com/user-attachments/assets/d8598d3a-e36c-4dca-80c3-1da9bd102ca3)
+
+![image 5](https://github.com/user-attachments/assets/b03dfae4-9738-44e2-816d-6246bcc3ae01)
+
+![image 6](https://github.com/user-attachments/assets/300e9b06-3734-43b7-94b6-3fabf4bdfe34)
+
+
+
+
+
+
+
 
