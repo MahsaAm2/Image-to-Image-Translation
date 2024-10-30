@@ -50,3 +50,14 @@ The **Discriminator** class is structured similarly to the contracting path of a
 
 - **Feature Map Block**: Maps the input images to a hidden representation, initializing the network.
 - **Contracting Blocks**: Three layers that progressively downsample the feature maps while increasing the depth. Each block applies a convolution operation followed by an activation function (Leaky ReLU).
+
+In this model, the **Discriminator** serves a unique purpose compared to traditional discriminators, which typically output a single scalar value indicating whether an entire input image is real or fake. Instead, this Discriminator produces a map of probabilities, where each pixel in the output corresponds to an N × N region of the input image. This means the Discriminator aims to predict whether each patch in the image is real or fake.
+
+The Discriminator achieves this by applying convolutional operations across the entire image, averaging all responses to generate the final output. This method is often referred to as **PatchGAN** and comes with several advantages:
+
+1. **Improved Quality**: By focusing on local patches rather than the overall structure, the Discriminator can produce images with more accurate textures and styles.
+
+2. **Efficient Calculation**: This approach reduces the number of required calculations, making it more efficient when working with large datasets.
+
+3. **Robustness**: The Discriminator exhibits increased resilience against image distortions and inconsistencies, as it concentrates on small local areas instead of the entire image.
+
