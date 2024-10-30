@@ -44,7 +44,9 @@ The **Generator** is designed to perform image translation between different vis
 - **Expanding Blocks**: Two layers that upsample the feature maps back to the original dimensions.
 - **Output Feature Map Block**: Produces the final output image in the target domain.
 
-```python
-class Generator(nn.Module):
-    ...
+### Discriminator
 
+The **Discriminator** class is structured similarly to the contracting path of a U-Net. Its primary role is to classify input images as real or fake, providing a crucial feedback signal to the generators during training. The Discriminator consists of the following components:
+
+- **Feature Map Block**: Maps the input images to a hidden representation, initializing the network.
+- **Contracting Blocks**: Three layers that progressively downsample the feature maps while increasing the depth. Each block applies a convolution operation followed by an activation function (Leaky ReLU).
