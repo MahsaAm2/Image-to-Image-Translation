@@ -116,19 +116,30 @@ Below are the results of image transfer from Domain A to Domain B using the Cycl
 
 ## Diffusion Model
 
-Image-to-image translation involves generating a target domain image that retains the structural similarities of a source image. Traditional methods in this field, often referred to as pixel-to-pixel translation, rely on paired training images and a pixel regularization strategy. However, these methods are not well-suited for unpaired training settings, where a direct correspondence between source and target images does not exist.
-
-### Traditional Approaches
 Initial methods designed for unpaired data settings, such as **CycleGAN**, aimed to maintain consistency between the source and output images through a one-sided learning strategy. While effective, these methods required additional productive training, leading to inefficiencies in the learning process.
 
 ### Recent Advances
 Recent models have focused on one-way translation, offering improvements in efficiency and effectiveness. However, these models still encounter challenges in unpaired image-to-image translation tasks.
 
-### Stochastic Differential Equations (SDEs)
-Stochastic Differential Equations (SDEs) are a class of diffusion models derived from stochastic differential equations. These models utilize noise to generate data and have seen significant advancements in recent years. Despite their progress, SDEs have limitations in unpaired image-to-image translation tasks due to their assumption of a Gaussian prior, which may not be suitable for all data distributions.
 
-### The Schrödinger Bridge
-The **Schrödinger Bridge** has emerged as a promising solution to address the limitations of diffusion models in unpaired image-to-image translation tasks. This approach provides a more flexible framework that can adapt to various data distributions, enhancing the effectiveness of image generation and translation.
+### Unpaired Schrödinger Bridge (UNSB)
+
+A new approach called the **Unpaired Schrödinger Bridge (UNSB)** has emerged as an effective solution for unpaired image-to-image translation tasks. UNSB formulates models as a sequence of adversarial learning problems, incorporating advanced discriminators and regularization techniques to enhance the learning process.
+
+The complexities associated with unpaired data and high-resolution images are better managed through UNSB's adversarial learning at scale. This leads to more accurate and effective translations, demonstrating that UNSB can efficiently handle large and complex datasets. Its success in solving various unpaired image-to-image translation tasks showcases its effectiveness in practical applications.
+
+The primary objective of UNSB is to minimize the difference between the actual target distribution and the model distribution. This is formulated as a Lagrangian optimization problem, which includes the optimization of a function under the Schrödinger Bridge constraint. Specifically, it imposes a restriction on the Kullback-Leibler divergence between the actual target distribution and the model distribution.
+
+Generators trained via UNSB's adversarial learning incorporate this limitation, which helps address the challenges posed by increasing dimensions. Additionally, the use of discriminators enhances the management of high-dimensional data.
+
+### DDGAN
+
+One notable model derived from UNSB is **Denoising Diffusion Generative Adversarial Network (DDGAN)**. DDGAN combines the principles of diffusion processes with GANs to produce high-quality images. This approach improves traditional methods by gradually adding noise to the original image to create a sequence of intermediate images.
+
+The diffusion process involves estimating the underlying data distribution and generating images using a denoising score objective, which encourages the generated images to align with the data distribution while noise is introduced during the process. DDGAN focuses on noise removal and translation between specific distributions, minimizing emissions, and extends its capabilities to translation across arbitrary distributions.
+
+The UNSB equation can be described through the decomposition of the Markov chain utilized in the algorithm, learning the transition probabilities between successive time steps. This analysis provides a foundation for inductive learning, further enhancing the efficacy of the approach.
+
 
 
 
