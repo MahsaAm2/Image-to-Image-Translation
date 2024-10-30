@@ -131,37 +131,6 @@ UNSB effectively manages the complexities of unpaired data and high-resolution i
 
 The UNSB equation is based on a Markov chain decomposition, learning transition probabilities between successive time steps, which supports inductive learning and enhances the approach's efficacy.
 
-### Error Functions for the Diffusion Model
-
-We define the error functions for the model as follows:
-
-1. **Least Squares Loss**:
-   \[
-   LSB(\phi_i, t_i) := E_{q_{\phi_i}(x_{t_i}, x_1)}[||x_{t_i} - x_1||^2] - 2\tau (1 - t_i)H(q_{\phi_i}(x_{t_i}, x_1))
-   \]
-
-2. **Adversarial Loss**:
-   \[
-   L_{Adv}(\phi_i, t_i) := D_{KL}(q_{\phi_i}(x_1) || p(x_1))
-   \]
-
-3. **Regularization Loss**:
-   \[
-   L_{Reg}(\phi, t_i) := E_{p(x_0, x_{t_i})} E_{q_{\phi}(x_0, x_{t_i})}[R(x_0, x_1)]
-   \]
-
-The overall error function is defined as:
-\[
-L_{UNSB}(\phi, t_i) := L_{Adv}(\phi, t_i) + \lambda_{SB, t_i} LSB(\phi, t_i) + \lambda_{Reg, t_i} LReg(\phi, t_i)
-\]
-
-### Training Procedure
-
-To train the model using UNSB, we sample the indicator \(\pi\) to compute \(x_1 \sim \pi\) and \(x_{t_i}\). We estimate from \(x_1(x_{t_i})\) to \(q_{\phi_i}(x_i, x_{t_i})\) with the goal of matching \(x_{t_i}\) to the target distribution. 
-
-Using pairs, we calculate the adversarial loss \(L_{Adv}(\phi, t_i)\) with the original photo as \(x_1(x_{t_i})\) and the generated photo as \(x\). Finally, the differentiator is applied to \(LSB(\phi, t_i)\) using the training data as specified in Table 4, followed by a division test.
-
-
 
 
 
