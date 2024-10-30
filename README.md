@@ -18,9 +18,8 @@ Here are sample images from each domain:
 
 - **Domain A**: Simulated Images
 
-  ![Simulated Image](https://github.com/user-attachments/assets/2efa0990-f10d-4c6e-b34d-5b4674140379)      ![Simulated Image 2](https://github.com/user-attachments/assets/efae6225-d9b4-4be5-a63c-cea9befd1c32) ![Simulated Imag 3](https://github.com/user-attachments/assets/fe052b9c-cdb9-42d8-85dd-d57786098158)
+  ![Simulated Image](https://github.com/user-attachments/assets/2efa0990-f10d-4c6e-b34d-5b4674140379)      ![Simulated Image 2](https://github.com/user-attachments/assets/efae6225-d9b4-4be5-a63c-cea9befd1c32)[Simulated Imag 3](https://github.com/user-attachments/assets/fe052b9c-cdb9-42d8-85dd-d57786098158)
  
-
 
 
 
