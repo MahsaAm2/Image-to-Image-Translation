@@ -12,6 +12,13 @@ This project uses an unpaired dataset comprising two distinct domains: simulated
 - **Domain B**: 6,690 real images of cars
 - **Image size**: 128 x 128 pixels
 
+### Unzipping the Dataset
+
+To unzip `dataset.zip` into a folder named `dataset`, use the following command:
+
+```bash
+unzip dataset.zip -d dataset
+```
 ## Dataset Examples
 
 Here are sample images from each domain:
