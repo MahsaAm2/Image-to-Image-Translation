@@ -149,16 +149,19 @@ Below are the results of image transfer from Domain A to Domain B:
 ## Final Results
 
 The image below shows the result of TSNE execution on real data and simulated data. Images of real cars are marked with a red star, while simulated cars are represented with a blue star.
-<div style="display: flex; justify-content: space-around;">
+<div style="display: flex; justify-content: center;">
     <img src="https://github.com/user-attachments/assets/3f4bc34c-bc8c-4a75-8b0b-3788a89c63a6" width="250" />
-    <img src="https://github.com/user-attachments/assets/abae2d54-e094-40a8-9ee2-f829f22ab3fe" width="250" />
-    <img src="https://github.com/user-attachments/assets/146fa511-e799-471a-82ca-3c30968ff2d1" width="250" />
 </div>
 
 In the figure above, we can see the result of TSNE execution on the real data and the data produced by CycleGAN. The overlap observed indicates that the simulated data is effectively mapped to the real data.
+<div style="display: flex; justify-content: center;">
+    <img src="https://github.com/user-attachments/assets/abae2d54-e094-40a8-9ee2-f829f22ab3fe" width="250" />
+</div>
 
 In the bottom image, we used the model based on diffusion, which demonstrates more overlap than the first image, indicating that the model has successfully performed the mapping.
-
+<div style="display: flex; justify-content: center;">
+    <img src="https://github.com/user-attachments/assets/146fa511-e799-471a-82ca-3c30968ff2d1" width="250" />
+</div>
 
 
 
