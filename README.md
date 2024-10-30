@@ -18,16 +18,17 @@ Here are sample images from each domain:
 
 - **Domain A**: Simulated Images
 
-  ![Simulated Image](https://github.com/user-attachments/assets/2efa0990-f10d-4c6e-b34d-5b4674140379)      ![Simulated Image 2](https://github.com/user-attachments/assets/34c2bfa0-5a7d-4589-961b-f9404cefc73e)     
-
-
- 
-
-
+<div style="display: flex; justify-content: space-around;">
+    <img src="https://github.com/user-attachments/assets/2efa0990-f10d-4c6e-b34d-5b4674140379" width="250" />
+    <img src="https://github.com/user-attachments/assets/34c2bfa0-5a7d-4589-961b-f9404cefc73e" width="250" />
+</div>
 
 - **Domain B**: Real Images
 
-  ![Real Image](https://github.com/user-attachments/assets/72d5758d-72df-4845-bf2f-709e2400f413)           ![Real Image 2](https://github.com/user-attachments/assets/25026c54-271f-4159-81f6-6e0d9ed03097)
+<div style="display: flex; justify-content: space-around;">
+    <img src="https://github.com/user-attachments/assets/72d5758d-72df-4845-bf2f-709e2400f413" width="250" />
+    <img src="https://github.com/user-attachments/assets/25026c54-271f-4159-81f6-6e0d9ed03097" width="250" />
+</div>
 
 
 ## CycleGAN
@@ -106,6 +107,10 @@ Below are the results of image transfer from Domain A to Domain B using the Cycl
 <div style="display: flex; justify-content: space-around;">
     <img src="https://github.com/user-attachments/assets/d8598d3a-e36c-4dca-80c3-1da9bd102ca3" width="250" />
     <img src="https://github.com/user-attachments/assets/b03dfae4-9738-44e2-816d-6246bcc3ae01" width="250" />
+</div>
+
+<div style="display: flex; justify-content: space-around;">
+    <img src="https://github.com/user-attachments/assets/300e9b06-3734-43b7-94b6-3fabf4bdfe34" width="250" />
 </div>
 
 
