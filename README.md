@@ -30,5 +30,21 @@ Here are sample images from each domain:
   ![Real Image](https://github.com/user-attachments/assets/72d5758d-72df-4845-bf2f-709e2400f413)           ![Real Image 2](https://github.com/user-attachments/assets/25026c54-271f-4159-81f6-6e0d9ed03097)
 
 
+## CycleGAN
 
+The **CycleGAN** architecture is designed to learn mappings between two different domains without paired examples. It consists of two generators and two discriminators. The generators learn to transform images from one domain to the other, while the discriminators differentiate between real and generated images in their respective domains. The cycle consistency loss ensures that an image translated to the target domain can be translated back to the original domain, maintaining the essential characteristics of the input image.
+
+### Generator
+
+The **Generator** is designed to perform image translation between different visual domains. It consists of:
+
+- **Feature Map Block**: Initiates the transformation process by mapping input images to a hidden representation.
+- **Contracting Blocks**: Two layers that progressively downsample the feature maps while increasing the depth.
+- **Residual Blocks**: Nine layers that learn complex features while preserving information from the input.
+- **Expanding Blocks**: Two layers that upsample the feature maps back to the original dimensions.
+- **Output Feature Map Block**: Produces the final output image in the target domain.
+
+```python
+class Generator(nn.Module):
+    ...
 
