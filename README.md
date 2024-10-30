@@ -119,9 +119,8 @@ Below are the results of image transfer from Domain A to Domain B using the Cycl
 Initial methods for unpaired data, such as **CycleGAN**, aimed to maintain consistency between source and output images using one-sided learning strategies. While effective, they required additional training, leading to inefficiencies.
 
 
-### Unpaired Schrödinger Bridge (UNSB)
-
-The **Unpaired Schrödinger Bridge (UNSB)** presents an effective solution for unpaired image-to-image translation. UNSB formulates models as adversarial learning problems, using advanced discriminators and regularization techniques.
+### Unpaired Schrödinger Bridge (UNSB)  
+The Unpaired Schrödinger Bridge (UNSB) presents an effective solution for unpaired image-to-image translation. Based on the concepts from the paper [*Unpaired Image-to-Image Translation via Neural Schrödinger Bridge*](https://arxiv.org/abs/2305.15086), UNSB formulates models as adversarial learning problems, using advanced discriminators and regularization techniques.
 
 UNSB effectively manages the complexities of unpaired data and high-resolution images, demonstrating success in various practical applications. Its main objective is to minimize the difference between the actual target distribution and the model distribution, formulated as a Lagrangian optimization problem with Kullback-Leibler divergence constraints. This approach improves dimensional challenges and enhances high-dimensional data management.
 
