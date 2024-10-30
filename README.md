@@ -114,6 +114,22 @@ Below are the results of image transfer from Domain A to Domain B using the Cycl
     <img src="https://github.com/user-attachments/assets/300e9b06-3734-43b7-94b6-3fabf4bdfe34" width="250" />
 </div>
 
+## Diffusion Model
+
+Image-to-image translation involves generating a target domain image that retains the structural similarities of a source image. Traditional methods in this field, often referred to as pixel-to-pixel translation, rely on paired training images and a pixel regularization strategy. However, these methods are not well-suited for unpaired training settings, where a direct correspondence between source and target images does not exist.
+
+### Traditional Approaches
+Initial methods designed for unpaired data settings, such as **CycleGAN**, aimed to maintain consistency between the source and output images through a one-sided learning strategy. While effective, these methods required additional productive training, leading to inefficiencies in the learning process.
+
+### Recent Advances
+Recent models have focused on one-way translation, offering improvements in efficiency and effectiveness. However, these models still encounter challenges in unpaired image-to-image translation tasks.
+
+### Stochastic Differential Equations (SDEs)
+Stochastic Differential Equations (SDEs) are a class of diffusion models derived from stochastic differential equations. These models utilize noise to generate data and have seen significant advancements in recent years. Despite their progress, SDEs have limitations in unpaired image-to-image translation tasks due to their assumption of a Gaussian prior, which may not be suitable for all data distributions.
+
+### The Schrödinger Bridge
+The **Schrödinger Bridge** has emerged as a promising solution to address the limitations of diffusion models in unpaired image-to-image translation tasks. This approach provides a more flexible framework that can adapt to various data distributions, enhancing the effectiveness of image generation and translation.
+
 
 
 
