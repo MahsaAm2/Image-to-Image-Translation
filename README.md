@@ -18,7 +18,7 @@ Here are sample images from each domain:
 
 - **Domain A**: Simulated Images
 
-  ![Simulated Image](https://github.com/user-attachments/assets/2efa0990-f10d-4c6e-b34d-5b4674140379)      ![Simulated Image 2](https://github.com/user-attachments/assets/34c2bfa0-5a7d-4589-961b-f9404cefc73e)       ![Simulated Image 3](https://github.com/user-attachments/assets/ea4ed184-f9e6-4e50-ba0e-296d00d4bb56)
+  ![Simulated Image](https://github.com/user-attachments/assets/2efa0990-f10d-4c6e-b34d-5b4674140379)      ![Simulated Image 2](https://github.com/user-attachments/assets/34c2bfa0-5a7d-4589-961b-f9404cefc73e)     
 
 
  
@@ -28,7 +28,7 @@ Here are sample images from each domain:
 - **Domain B**: Real Images
 
   ![Real Image](https://github.com/user-attachments/assets/72d5758d-72df-4845-bf2f-709e2400f413)           ![Real Image 2](https://github.com/user-attachments/assets/25026c54-271f-4159-81f6-6e0d9ed03097)
-  ![Real Image 3](https://github.com/user-attachments/assets/1f6f5f3f-54b3-4beb-865b-e7d5488a1e0f)
+
 
 
 
