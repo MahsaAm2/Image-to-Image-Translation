@@ -146,7 +146,6 @@ Below are the results of image transfer from Domain A to Domain B:
 </div>
 
 
-## Final Results
 
 ## Final Results
 
@@ -164,6 +163,8 @@ In the bottom image, we used the model based on diffusion, which demonstrates mo
 <div style="display: flex; justify-content: center;">
     <img src="https://github.com/user-attachments/assets/146fa511-e799-471a-82ca-3c30968ff2d1" width="400" />
 </div>
+
+It is clear that CycleGAN has done the mapping more accurately, but the model based on diffusion has more diversity.
 
 
 
