@@ -137,11 +137,10 @@ The UNSB equation is based on a Markov chain decomposition, learning transition 
 Below are the results of image transfer from Domain A to Domain B:
 
 <div style="display: flex; justify-content: space-around;">
-    <img src="https://github.com/user-attachments/assets/a841f97e-5d19-4d6e-b63c-1d1ae1bab010" width="250" />
-    <img src="https://github.com/user-attachments/assets/5d8dbb47-8b2d-4f8d-b040-6f13884c18e8" width="250" />
-    <img src="https://github.com/user-attachments/assets/92fc10ae-76af-425b-8223-baef86370756" width="250" />
+    <img src="https://github.com/user-attachments/assets/a841f97e-5d19-4d6e-b63c-1d1ae1bab010" width="250" height="250" />
+    <img src="https://github.com/user-attachments/assets/5d8dbb47-8b2d-4f8d-b040-6f13884c18e8" width="250" height="250" />
+    <img src="https://github.com/user-attachments/assets/92fc10ae-76af-425b-8223-baef86370756" width="250" height="250" />
 </div>
-
 
 
 
