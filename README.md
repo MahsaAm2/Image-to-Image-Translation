@@ -16,18 +16,19 @@ This project uses an unpaired dataset comprising two distinct domains: simulated
 
 Here are sample images from each domain:
 
+
 - **Domain A**: Simulated Images
 
 <div style="display: flex; justify-content: space-around;">
-    <img src="https://github.com/user-attachments/assets/2efa0990-f10d-4c6e-b34d-5b4674140379" width="250" />
-    <img src="https://github.com/user-attachments/assets/34c2bfa0-5a7d-4589-961b-f9404cefc73e" width="250" />
+    <img src="https://github.com/user-attachments/assets/2efa0990-f10d-4c6e-b34d-5b4674140379" style="height: 200px; width: 200px;" />
+    <img src="https://github.com/user-attachments/assets/34c2bfa0-5a7d-4589-961b-f9404cefc73e" style="height: 200px; width: 200px;" />
 </div>
 
 - **Domain B**: Real Images
 
 <div style="display: flex; justify-content: space-around;">
-    <img src="https://github.com/user-attachments/assets/72d5758d-72df-4845-bf2f-709e2400f413" width="250" />
-    <img src="https://github.com/user-attachments/assets/25026c54-271f-4159-81f6-6e0d9ed03097" width="250" />
+    <img src="https://github.com/user-attachments/assets/72d5758d-72df-4845-bf2f-709e2400f413" style="height: 200px; width: 200px;" />
+    <img src="https://github.com/user-attachments/assets/25026c54-271f-4159-81f6-6e0d9ed03097" style="height: 200px; width: 200px;" />
 </div>
 
 
